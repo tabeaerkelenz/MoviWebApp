@@ -52,7 +52,7 @@ MoviWebApp/
 ### 1️. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/moviwebapp.git
+git clone https://github.com/tabeaerkelenz/moviwebapp.git
 cd moviwebapp
 ```
 
