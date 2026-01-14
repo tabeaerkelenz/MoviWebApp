@@ -4,7 +4,7 @@ MoviWebApp is a simple Flask-based web application that allows users to manage a
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add users
 - Add movies manually with title, genre, year, rating
@@ -19,7 +19,7 @@ MoviWebApp is a simple Flask-based web application that allows users to manage a
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 MoviWebApp/
@@ -49,27 +49,27 @@ MoviWebApp/
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1️. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/moviwebapp.git
 cd moviwebapp
 ```
 
-### 2️⃣ Create Virtual Environment (Optional but recommended)
+### 2. Create Virtual Environment (Optional but recommended)
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 3️⃣ Install Requirements
+### 3. Install Requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Set up `.env` file
+### 4. Set up `.env` file
 
 Create a `.env` file in the root directory:
 
@@ -78,14 +78,14 @@ OMDB_API_KEY=your_omdb_api_key_here
 SECRET_KEY=your_flask_secret_key
 ```
 
-### 5️⃣ Run the App
+### 5. Run the App
 
 ```bash
 python3 app.py
 ```
 
 Then open your browser at:  
-👉 `http://localhost:5000` or the provided Codio URL
+-> `http://localhost:5000` or the provided Codio URL
 
 ---
 
@@ -118,7 +118,7 @@ python3 init_db.py
 
 ---
 
-## 🧪 Example .env File
+## Example .env File
 
 ```env
 OMDB_API_KEY=12345678abcd
@@ -127,7 +127,7 @@ SECRET_KEY=supersecret123
 
 ---
 
-## 🎨 Styling
+## Styling
 
 - The app uses a custom CSS file at `static/style.css`
 - Includes:
@@ -146,7 +146,7 @@ SECRET_KEY=supersecret123
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.7+
 - Flask
@@ -162,23 +162,6 @@ pip install -r requirements.txt
 
 ---
 
-## 👨‍💻 Author
-
-Made with 💚 by [Your Name]  
-(Feel free to personalize this section)
-
----
-
-## 📸 Screenshot (Optional)
-
-You can embed screenshots like:
-
-```
-![App Screenshot](static/screenshot.png)
-```
-
----
-
-## 📜 License
+## License
 
 MIT License
